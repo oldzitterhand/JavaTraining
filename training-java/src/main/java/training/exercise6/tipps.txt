@@ -1,0 +1,5 @@
+Tipps:
+------
+
+- Aus wie vielen Sekunden bestehen Minute, Stunden und Tag?
+- Der Modulo-Operator könnte hier benutzt werden.

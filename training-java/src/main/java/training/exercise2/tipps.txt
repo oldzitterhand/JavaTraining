@@ -1,0 +1,7 @@
+Tipps:
+------
+
+- Hier benötigen wir try-, catch- und finally-Blöcke
+- Man kann einen Status/Exit-Code beim Beenden des Programms mit Hilfe von System.exit(n) zurückgeben
+- Mit diesem DOS-Befehl kann der Exit-Code ausgelesen werden: echo %ERRORLEVEL%
+  Bei Unix-basierten Betriebssystemen kann der Exit-Code in der Konsole mit diesem Befehl ausgegeben werden: echo $?

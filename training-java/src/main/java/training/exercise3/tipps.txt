@@ -1,0 +1,5 @@
+Tipps:
+------
+
+- Du wirst das Gelernte aus Exercise1 und Excercise2 brauchen.
+- Die Klassen Paths, Files und BufferedWriter sind deine Freunde! ;)

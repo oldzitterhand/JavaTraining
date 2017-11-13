@@ -1,0 +1,6 @@
+Tipps:
+------
+
+- Du wirst das Gelernte aus Exercise1 und Excercise2 brauchen.
+- Die Klassen Paths, Files und BufferedReader sind deine Freunde! ;)
+- Hier könnte eine while-Schleife nützlich sein
