@@ -19,7 +19,7 @@ public class Solution1
     	
     	// Lösung Aufgabe 1b
     	System.out.println("Argument #2 from command line: ");
-    	if (args.length > 0) {
+    	if (args.length > 1) {
     		System.out.println(args[1]);
     	}
     }
