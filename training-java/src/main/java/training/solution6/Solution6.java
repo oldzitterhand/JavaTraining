@@ -7,7 +7,7 @@ public class Solution6
 {
     public static void main( String[] args )
     {
-    	System.out.println(convertSecondsToDHMS(86401));
+    	System.out.println(convertSecondsToDHMS(6012345));
     }
     
     private static String convertSecondsToDHMS(int seconds) {
