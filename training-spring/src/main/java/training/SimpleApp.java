@@ -20,17 +20,17 @@ public class SimpleApp
         }
 
         System.out.println("Floatables:");
-        for (Vehicle v : vehicleService.finadAllFloatables()) {
+        for (Vehicle v : vehicleService.findAllFloatables()) {
         	System.out.println(v);
         }
 
         System.out.println("Flyables:");
-        for (Vehicle v : vehicleService.finadAllFlyables()) {
+        for (Vehicle v : vehicleService.findAllFlyables()) {
         	System.out.println(v);
         }
 
         System.out.println("Driveables:");
-        for (Vehicle v : vehicleService.finadAllDriveables()) {
+        for (Vehicle v : vehicleService.findAllDriveables()) {
         	System.out.println(v);
         }
     }

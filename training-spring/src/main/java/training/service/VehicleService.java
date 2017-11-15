@@ -21,20 +21,20 @@ public interface VehicleService {
 	 * Finds all flyable vehicles.
 	 *@return a list of vehicles
 	 */
-	public List<Vehicle> finadAllFlyables();
+	public List<Vehicle> findAllFlyables();
 
 	/**
 	 * Finds all floatable vehicles.
 	 * @return a list of vehicles
 	 */
 
-	public List<Vehicle> finadAllFloatables();
+	public List<Vehicle> findAllFloatables();
 
 	/**
 	 * Finds all driveable vehicles.
 	 * @return a list of vehicles
 	 */
 
-	public List<Vehicle> finadAllDriveables();
+	public List<Vehicle> findAllDriveables();
 	
 }

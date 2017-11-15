@@ -23,17 +23,17 @@ public class VehicleServiceSpringImpl implements VehicleService {
 		return vehicleRepo.findAllVehicles();
 	}
 	
-	public List<Vehicle> finadAllFlyables() {
-		return vehicleRepo.finadAllFlyables();
+	public List<Vehicle> findAllFlyables() {
+		return vehicleRepo.findAllFlyables();
 	}
 	
-	public List<Vehicle> finadAllFloatables() {
-		return vehicleRepo.finadAllFloatables();
+	public List<Vehicle> findAllFloatables() {
+		return vehicleRepo.findAllFloatables();
 	}
 	
 	@Override
-	public List<Vehicle> finadAllDriveables() {
-		return vehicleRepo.finadAllDriveables();
+	public List<Vehicle> findAllDriveables() {
+		return vehicleRepo.findAllDriveables();
 	}
 
 	public VehicleRepo getVehicleRepo() {

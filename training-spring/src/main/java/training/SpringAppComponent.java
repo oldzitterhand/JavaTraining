@@ -35,17 +35,17 @@ public class SpringAppComponent
       }
 
       System.out.println("Floatables:");
-      for (Vehicle v : service.finadAllFloatables()) {
+      for (Vehicle v : service.findAllFloatables()) {
       	System.out.println(v);
       }
 
       System.out.println("Flyables:");
-      for (Vehicle v : service.finadAllFlyables()) {
+      for (Vehicle v : service.findAllFlyables()) {
       	System.out.println(v);
       }
 
       System.out.println("Driveables:");
-      for (Vehicle v : service.finadAllDriveables()) {
+      for (Vehicle v : service.findAllDriveables()) {
       	System.out.println(v);
       }
     }

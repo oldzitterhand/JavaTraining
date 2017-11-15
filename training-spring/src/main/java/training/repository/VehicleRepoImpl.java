@@ -19,16 +19,16 @@ public class VehicleRepoImpl implements VehicleRepo {
 		return createVehicles();
 	}
 	
-	public List<Vehicle> finadAllFlyables() {
+	public List<Vehicle> findAllFlyables() {
 		return createVehicles().stream().filter(v -> v.isFlyable()).collect(Collectors.toList());
 	}
 	
-	public List<Vehicle> finadAllFloatables() {
+	public List<Vehicle> findAllFloatables() {
 		return createVehicles().stream().filter(v -> v.isFloatable()).collect(Collectors.toList());
 	}
 	
 	@Override
-	public List<Vehicle> finadAllDriveables() {
+	public List<Vehicle> findAllDriveables() {
 		return createVehicles().stream().filter(v -> v.isDriveable()).collect(Collectors.toList());
 	}
 
