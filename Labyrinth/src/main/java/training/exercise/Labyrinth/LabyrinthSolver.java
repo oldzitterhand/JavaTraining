@@ -34,27 +34,24 @@ public class LabyrinthSolver {
 
 	private Cell[][] createArrayFromLines(List<String> lines) {
 		if (lines != null && !lines.isEmpty()) {
-			height = lines.size();
-			for (String line : lines) {
-	        	width = Math.max(width, line.length());
-	        }
+			
+			// Tasks:
+			// - Determine the height and width of the labyrinth.
+			//   You will need these values to initialize the array.
+			//   Take into account that not all lines might be of the same length (so find the longest line).
+			// - Fill the cell array
+			//   Read every line character for character and create a cell.
+			//   Put the character into the cell. Also check if the cell is either the start- or end-point
+			//   of the labyrinth and set this information as well.
+			
+
+			// Determine the height and width of the labyrinth here!
+			
 			
 			Cell[][] labyrinth = new Cell[height][width];
-			for (int y = 0; y < lines.size(); y++) {
-	        	char[] chars = lines.get(y).toCharArray();
-	        	for (int x = 0; x < chars.length; x++) {
-	        		Cell cell = new Cell();
-	        		cell.setSymbol(String.valueOf(chars[x]));
-	        		labyrinth[y][x] = cell;
-	        		if (cell.isStart()) {
-	        			startY = y;
-	        			startX = x;
-	        		} else if (cell.isEnd()) {
-	        			endY = y;
-	        			endX = x;
-	        		}
-	        	}
-	        }
+			
+			// Fill the array here!
+			
 			return labyrinth;
 		}
 		return new Cell[0][0];
@@ -87,10 +84,6 @@ public class LabyrinthSolver {
 		// - use the method "isReached()" from the Cell object
 		// - use the method "setReached(boolean reached)" from the Cell object to mark your way
 
-		
-		
-		
-		
 		
 		
 		putBreadcrumb(y, x);
