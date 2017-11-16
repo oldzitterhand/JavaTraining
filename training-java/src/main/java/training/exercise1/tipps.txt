@@ -5,7 +5,7 @@ Tipps:
 - Die Java-API findest Du hier: https://docs.oracle.com/javase/8/docs/api/
 - Zur Lösung von Aufgabe 1a könnte eine for-Schleife helfen ;)
 - Zur Lösung von Aufgabe 1b muss auf das Array direkt zugegriffen werden. Der Zähler fängt bei 0 an!
-  Mit einem if-Block kann man die vor dem Zugriff die Länge des Arrays abfragen...
+  Mit einem if-Block kann man vor dem Zugriff die Länge des Arrays abfragen...
 
 
 Zum Ausführen auf der Kommandozeile:
